@@ -4,6 +4,8 @@ using namespace std;
 int arr[5];
 int top=-1;
 
+void insert(int a);
+
 int main()
 {
 insert(10);
