@@ -50,3 +50,18 @@ for(int i=top; i<5; i++)
 cout<<endl;
 }
 }
+
+void delete()
+{
+if(top==-1)
+{
+cout<<"stack is empty"<<endl;
+return ;
+}
+else
+{
+ arr[top]=0;
+ cout<<"element deleted"<<endl;
+ top++;
+}
+}
