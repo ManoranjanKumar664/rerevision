@@ -4,10 +4,10 @@ using namespace std;
 int arr[5];
 int top=-1;
 
-void insert(int a);
-void delete();
-void show();
-void delseclast();
+void insert(int a); //for inserting a single element 
+void delete(); //deleting a single/last element
+void show(); //to show all elements
+void delseclast(); //to delete the second last element
 
 int main()
 {
