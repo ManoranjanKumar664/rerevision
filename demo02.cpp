@@ -7,6 +7,7 @@ int top=-1;
 void insert(int a);
 void delete();
 void show();
+void delseclast();
 
 int main()
 {
@@ -17,7 +18,29 @@ insert(20);
 show();
 delete();
 show();
+delseclast();
+show();
 return 0;
+}
+
+void delseclast()
+{
+ if(top==-1)
+ {
+ cout<<"stack is empty"<<endl;
+ return;
+ }
+ else if(top==0)
+ {
+ cout<<"only one element present, no second "<<endl;
+ return;
+ }
+ else
+ {
+ int x=top-1;
+ arr[x]=0;
+ cout<<"element deleted"<<endl;
+ }
 }
 
 void insert(int x)
