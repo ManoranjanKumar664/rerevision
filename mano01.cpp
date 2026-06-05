@@ -19,3 +19,9 @@ int main()
   sort(lb, ub);
   return 0;
 }
+
+void sum(int a, int b)
+{
+int c=a+b;
+cout<<"sum="<<c<<endl;
+}
